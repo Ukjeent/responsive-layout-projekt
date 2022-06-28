@@ -102,6 +102,7 @@ footer {
 .nav-menu li {
     padding: 10px 5px;
 }
+
 /* header end */
 
 .sub-heading {
@@ -143,6 +144,10 @@ footer {
     height: auto;
 }
 
+.image:hover {
+    box-shadow: 0px 2px 2px 1px rgba(120,120,120, .5);          
+}
+
 .profile-image {
     max-width: 80%;
     height: auto;
@@ -156,12 +161,41 @@ footer {
 }
 
 .contact-section {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .contact-info {
     line-height: 2.5rem;
     margin-bottom: 60px;
+}
+
+.contact-p {
+    color: grey;
+}
+
+.skills-button {
+    padding: 8px 0;
+    margin: 5px auto;
+    width: 100px;
+    background-color: #ff9904;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0px 1px 1px rgba(90,90,90, .5);
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-button:hover {
+    box-shadow: 0px 2px 2px 1px rgba(120,120,120, .5);          
+}
+
+.my-skills {
+    border-bottom: lightgray .5px dashed;
+    padding-bottom: 50px;
 }
 
 /* ================================= 
@@ -234,6 +268,16 @@ footer {
 
     footer {
         padding-bottom: 50px;
+    }
+
+    .skills-box {
+        flex-direction: row;
+        max-width: 320px;
+        justify-content: center;
+    }
+
+    .skills-box {
+        margin: auto;
     }
 
 }

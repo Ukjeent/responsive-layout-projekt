@@ -198,6 +198,10 @@ footer {
     padding-bottom: 50px;
 }
 
+.footer-nav {
+    display: none;
+}
+
 /* ================================= 
   ID Element Styles
 ==================================== */
@@ -205,12 +209,7 @@ footer {
 /* ================================= 
   Media Queries
 ==================================== */
- 
-@media (max-width: 767px) {
-    .footer-nav {
-        display: none;
-    }
- }
+
 
 @media (min-width: 768px) {
 
@@ -278,6 +277,10 @@ footer {
 
     .skills-box {
         margin: auto;
+    }
+
+    .footer-nav {
+        display: contents;
     }
 
 }

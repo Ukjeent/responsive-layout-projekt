@@ -122,6 +122,16 @@ footer {
     margin-bottom: 80px;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
 .contact-info a {
     font-weight: 600;
 }
@@ -183,6 +193,14 @@ footer {
 .profile-image {
     max-width: 40%;
     max-height: auto;
+}
+
+.flex-container {
+    flex-direction: row;
+}
+.flex-item {
+    flex-basis: 50%;
+
 }
 
 }

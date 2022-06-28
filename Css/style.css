@@ -129,7 +129,7 @@ footer {
 
 .flex-item {
     flex-grow: 1;
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .contact-info a {
@@ -197,10 +197,16 @@ footer {
 
 .flex-container {
     flex-direction: row;
+    flex-wrap: wrap;    
 }
 .flex-item {
-    flex-basis: 50%;
+    flex-basis: 40%;
+    margin: 0 5px 30px 5px;
+}
 
+.contact-section {
+    margin: auto;
+    width: 540px;
 }
 
 }
@@ -216,6 +222,11 @@ footer {
     }
     .name {
         margin-right: auto;
+    }
+
+    .flex-item {
+        flex-basis: 25%;
+        margin: 0 10px 30px 10px;
     }
 
 }

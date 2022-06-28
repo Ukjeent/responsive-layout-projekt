@@ -17,9 +17,9 @@
             <h1 class="name">Student name</h1>
             <nav>
                 <ul class="nav-menu">
-                    <li class="nav-link"><a href="#">HOME</a></li>
-                    <li class="nav-link"><a href="#">PORTFOLIO</a></li>
-                    <li class="nav-link"><a href="#">CONTACT</a></li>
+                    <li class="nav-link"><a href="index.html">HOME</a></li>
+                    <li class="nav-link"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-link"><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
     </header>
@@ -31,62 +31,63 @@
         </main>
 
         <div>
-            <h2 class="sub-heading">Portfolio</h2>
+            <h2 class="sub-heading" id="portfolio">Portfolio</h2>
         </div>
 
     <div class="flex-container">
-        <div class="flex-item">
+        <section class="flex-item" id="marketing">
             <img src="images/portfolio-1.png" alt="marketing page image" class="image">
             <h3>Marketing Page</h3>
             <p>This project shows the front åage of a marketing website meant for a specific business I'm intrested in.</p>
-        </div>
+        </section>
 
-        <div class="flex-item">
+        <section class="flex-item" id="search">
             <img src="images/portfolio-2.png" alt="search page image" class="image">
             <h3>Search Page</h3>
             <p>This project searches through a specific database to find information that the user is trying to look up</p>
-        </div>
+        </section>
 
-        <div class="flex-item">
+        <section class="flex-item" id="travel">
             <img src="images/portfolio-3.png" alt="travel app image" class="image">
             <h3>Travel App</h3>
             <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-        </div>
+        </section>
 
-        <div class="flex-item">
+        <section class="flex-item" id="map">
             <img src="images/portfolio-4.png" alt="image of Map of favorite spots" class="image">
             <h3>Map of favorite Spots</h3>
             <p>This project uses mapping apsis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-        </div>
+        </section>
 
-        <div class="flex-item">
+        <section class="flex-item" id="photo-gallery">
             <img src="images/portfolio-5.png" alt="photo gallery image" class="image">
             <h3>Photo Gallery</h3>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-        </div>
+        </section>
 
-        <div class="flex-item">
+        <section class="flex-item" id="calculator">
             <img src="images/portfolio-6.png" alt="calculator image" class="image">
             <h3>Calculator</h3>
             <p>Someone can enter in the numbers they want, and press the big blue button to get the result</p>
-        </div>
+        </section>
     </div>
-        <div class="contact-section">
+
+        <section class="contact-section" id="contact">
             <h3>Contact</h3>
             <p class="contact-p">If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <ul class="contact-info">
                 <li>Phone <a href="tel:#">+1 (111) 555-1234</a></li>
                 <li>Email <a href="mailto:test@test.no">email@yoursite.com</a></li>
             </ul>
-        </div>
+        </section>
     </div>
     <footer>
         <p class="footer-name">Student name</p>
-        <p class="footer-back-to-top"><a href="#">BACK TO TOP</a></p>
+        <p class="footer-back-to-top nav-menu"><a href="#top">BACK TO TOP</a></p>
         <ul class="nav-menu footer-nav">
-            <li class="footer-link"><a href="#">Home</a></li>
-            <li class="footer-link"><a href="#">Portfolio</a></li>
-            <li class="footer-link"><a href="#">Contact</a></li>
+            <li class="footer-link"><a href="/index.html">Home</a></li>
+            <li class="footer-link"><a href="#portfolio">Portfolio</a></li>
+            <li class="footer-link"><a href="#contact">Contact</a></li>
         </ul>
     </footer>
 </body>

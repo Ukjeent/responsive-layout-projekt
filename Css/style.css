@@ -63,7 +63,7 @@ a:hover {
 }
 
 footer {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* Footer start */
@@ -140,12 +140,12 @@ footer {
 
 .image {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 .profile-image {
     max-width: 80%;
-    max-height: auto;
+    height: auto;
 }
 
 /* Images end */
@@ -207,7 +207,7 @@ footer {
 
     .profile-image {
         max-width: 40%;
-        max-height: auto;
+        height: auto;
     }
 
     .flex-container {
